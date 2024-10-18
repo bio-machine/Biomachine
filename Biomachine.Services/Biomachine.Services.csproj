@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\ProductService\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Biomachine.Domain\Biomachine.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,6 +1,0 @@
-@Biomachine_HostAddress = http://localhost:5234
-
-GET {{Biomachine_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

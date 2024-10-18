@@ -1,4 +1,4 @@
-namespace Biomachine
+namespace Biomachine.WebAPI
 {
     public class WeatherForecast
     {

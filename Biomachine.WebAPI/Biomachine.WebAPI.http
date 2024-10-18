@@ -1,0 +1,6 @@
+@Biomachine.WebAPI_HostAddress = http://localhost:5157
+
+GET {{Biomachine.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
