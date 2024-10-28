@@ -1,5 +1,6 @@
 ﻿using Biomachine.DAL.Contexts;
 using Biomachine.Domain.Commons;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 

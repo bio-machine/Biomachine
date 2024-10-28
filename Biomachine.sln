@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biomachine.DAL", "Biomachine.DAL\Biomachine.DAL.csproj", "{9A371694-58D6-4B64-97AF-A0675B69F78C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biomachine.DAL", "Biomachine.DAL\Biomachine.DAL.csproj", "{9A371694-58D6-4B64-97AF-A0675B69F78C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biomachine.Domain", "Biomachine.Domain\Biomachine.Domain.csproj", "{CFC8C91F-514B-4DB0-B995-7F19407F99A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biomachine.Domain", "Biomachine.Domain\Biomachine.Domain.csproj", "{CFC8C91F-514B-4DB0-B995-7F19407F99A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biomachine.Services", "Biomachine.Services\Biomachine.Services.csproj", "{3FF9423F-756E-4FD8-90E6-C4B24E93F123}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biomachine.Services", "Biomachine.Services\Biomachine.Services.csproj", "{3FF9423F-756E-4FD8-90E6-C4B24E93F123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biomachine.WebAPI", "Biomachine.WebAPI\Biomachine.WebAPI.csproj", "{EE205B4C-4AD0-4BD2-85EA-82A1149323FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{3FF9423F-756E-4FD8-90E6-C4B24E93F123}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FF9423F-756E-4FD8-90E6-C4B24E93F123}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FF9423F-756E-4FD8-90E6-C4B24E93F123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE205B4C-4AD0-4BD2-85EA-82A1149323FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE205B4C-4AD0-4BD2-85EA-82A1149323FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE205B4C-4AD0-4BD2-85EA-82A1149323FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE205B4C-4AD0-4BD2-85EA-82A1149323FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
